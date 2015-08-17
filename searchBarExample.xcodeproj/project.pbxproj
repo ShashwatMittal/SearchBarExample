@@ -14,6 +14,7 @@
 		3FCF23651B823F0D005E7ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF23641B823F0D005E7ADE /* Images.xcassets */; };
 		3FCF23681B823F0D005E7ADE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF23661B823F0D005E7ADE /* LaunchScreen.xib */; };
 		3FCF23741B823F0D005E7ADE /* searchBarExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF23731B823F0D005E7ADE /* searchBarExampleTests.m */; };
+		3FCF237F1B823FEA005E7ADE /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF237E1B823FEA005E7ADE /* customCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3FCF236D1B823F0D005E7ADE /* searchBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCF23721B823F0D005E7ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCF23731B823F0D005E7ADE /* searchBarExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchBarExampleTests.m; sourceTree = "<group>"; };
+		3FCF237D1B823FEA005E7ADE /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		3FCF237E1B823FEA005E7ADE /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				3FCF235C1B823F0D005E7ADE /* AppDelegate.m */,
 				3FCF235E1B823F0D005E7ADE /* ViewController.h */,
 				3FCF235F1B823F0D005E7ADE /* ViewController.m */,
+				3FCF237D1B823FEA005E7ADE /* customCell.h */,
+				3FCF237E1B823FEA005E7ADE /* customCell.m */,
 				3FCF23611B823F0D005E7ADE /* Main.storyboard */,
 				3FCF23641B823F0D005E7ADE /* Images.xcassets */,
 				3FCF23661B823F0D005E7ADE /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				3FCF23601B823F0D005E7ADE /* ViewController.m in Sources */,
 				3FCF235D1B823F0D005E7ADE /* AppDelegate.m in Sources */,
+				3FCF237F1B823FEA005E7ADE /* customCell.m in Sources */,
 				3FCF235A1B823F0D005E7ADE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
